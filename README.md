@@ -16,8 +16,6 @@
 
 Este projeto **não avalia o algoritmo do Nutri-Score**. Usa os valores nutricionais declarados nos produtos e compara-os com referências oficiais portuguesas quando elas existem.
 
-> **Nota sobre a versão.** Esta é uma revisão do projeto original. Ao reproduzir as queries encontrei problemas de classificação e de método (categorias demasiado largas, um grupo de controlo contaminado, limiares sem fonte). Corrigi-os e retirei uma das análises originais, cuja definição era circular. As alterações estão descritas no fim.
-
 ---
 
 ## Duas referências que não se podem confundir
@@ -135,15 +133,6 @@ Google BigQuery · SQL (CTEs, funções de janela, `APPROX_QUANTILES`, `REGEXP_C
 
 ---
 
-## O que mudou face à versão original
-
-* **Análise 5 retirada** ("ultraprocessados saudáveis"): os grupos eram definidos pelo próprio açúcar e gordura saturada, por isso o resultado era verdadeiro por construção, e o dataset não tem ingredientes.
-* **Análise 1:** o grupo "marcas líderes" incluía produtos sem marca e outras marcas de distribuidor; passou a comparar-se por subcategoria.
-* **Análise 2:** "cereais de pequeno-almoço" incluía pão, arroz e massa (908 produtos); agora são 248 produtos. As barras de chocolate e proteicas deixaram de se misturar com as barras de cereais.
-* **Análise 3:** a query estava cortada no repositório; foi refeita com grupos exclusivos. Retirei as afirmações sobre custo-benefício, sem dados de preço.
-* **Análise 4:** o grupo do pão incluía panados e a referência de 1,0 g era chamada "limite"; passou a distinguir-se o limite legal (1,4 g) do critério da DGS (1,0 g).
-
----
 
 <div align="center">
 
