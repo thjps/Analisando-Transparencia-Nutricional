@@ -40,7 +40,7 @@ Estar acima de um limiar da DGS **não torna um produto ilegal nem "mau"**: sign
 
 **Resultado:** em quatro das cinco subcategorias o perfil é praticamente igual (diferenças inferiores a 2 g de açúcar). **A exceção são as bolachas e bolos**: as marcas de distribuidor têm mais açúcar (24,4 contra 19,7 g/100 g), mais gordura saturada (7,7 contra 6,5 g) e um pouco menos proteína. A diferença no açúcar é estatisticamente significativa (teste de Mann-Whitney, p < 0,001).
 
-![MDD vs outras marcas](<Gráficos/01_mdd_vs_outras_marcas.png>)
+![MDD vs outras marcas](./Gr%C3%A1ficos/01_mdd_vs_outras_marcas.png)
 
 **Limites:** a classificação das marcas é feita pelo nome registado no Open Food Facts. Lidl (25 produtos) e Mercadona (13) têm amostras pequenas e não são analisados individualmente. A análise não tem preços, por isso não diz nada sobre custo.
 
