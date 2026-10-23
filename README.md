@@ -40,7 +40,7 @@ Estar acima de um limiar da DGS **não torna um produto ilegal nem "mau"**: sign
 
 **Resultado:** em quatro das cinco subcategorias o perfil é praticamente igual (diferenças inferiores a 2 g de açúcar). **A exceção são as bolachas e bolos**: as marcas de distribuidor têm mais açúcar (24,4 contra 19,7 g/100 g), mais gordura saturada (7,7 contra 6,5 g) e um pouco menos proteína. A diferença no açúcar é estatisticamente significativa (teste de Mann-Whitney, p < 0,001).
 
-![MDD vs outras marcas](./Gr%C3%A1ficos/01_mdd_vs_outras_marcas.png)
+![MDD vs outras marcas](./Gra%CC%81ficos/01_mdd_vs_outras_marcas.png)
 
 **Limites:** a classificação das marcas é feita pelo nome registado no Open Food Facts. Lidl (25 produtos) e Mercadona (13) têm amostras pequenas e não são analisados individualmente. A análise não tem preços, por isso não diz nada sobre custo.
 
@@ -57,7 +57,7 @@ Estar acima de um limiar da DGS **não torna um produto ilegal nem "mau"**: sign
 * **97%** dos sumos e néctares excedem 2,5 g/100 ml. O critério da DGS é muito exigente para sumos e não distingue açúcar natural de adicionado: o resultado mostra que quase nenhum sumo é elegível para publicidade infantil, não que "todos os sumos são prejudiciais".
 * Os sumos têm também muito pouca fibra (média de 0,45 g/100 g).
 
-![Açúcar por categoria](<Gráficos/02_acucar_por_categoria.png>)
+![Açúcar por categoria](./Gra%CC%81ficos/02_acucar_por_categoria.png)
 
 **Limites:** as barras de cereais têm apenas 30 produtos com dados. As bebidas estão em g/100 g no dataset e tratei 1 g como 1 ml.
 
@@ -70,7 +70,7 @@ Estar acima de um limiar da DGS **não torna um produto ilegal nem "mau"**: sign
 
 **Resultado:** o **peixe e marisco lidera** (13,1 g de proteína por 100 kcal), seguido da carne e aves não processadas (10,8) e da charcutaria (10,5). As alternativas vegetais (8,4), as leguminosas (7,4) e os iogurtes (6,7) ficam atrás. Só 3,4% dos iogurtes atingem 10 g de proteína por 100 g.
 
-![Eficiência proteica](<Gráficos/03_eficiencia_proteica.png>)
+![Eficiência proteica](./Gra%CC%81ficos/03_eficiencia_proteica.png)
 
 **Limites:** a métrica mede só proteína por energia. As leguminosas têm fibra e os iogurtes têm cálcio, que não entram aqui. Nas leguminosas, 61% (44 de 72) são conservas já cozidas, o que explica a média de 142 kcal/100 g. Sem dados de preço, não é possível falar de custo-benefício.
 
@@ -85,7 +85,7 @@ Estar acima de um limiar da DGS **não torna um produto ilegal nem "mau"**: sign
 * **Pão:** 42% excedem o limiar da DGS (1,0 g), mas só **9% (7 produtos) excedem o limite legal** (1,4 g).
 * **Snacks salgados:** 86% a 97% excedem o limiar da DGS de 0,3 g. Os crackers têm uma mediana de 1,4 g de sal por 100 g.
 
-![Sal](<Gráficos/04_sal_pao_e_snacks.png>)
+![Sal](./Gra%CC%81ficos/04_sal_pao_e_snacks.png)
 
 **Limites:** o limite legal refere-se ao pão após cozedura e o dataset tem produto embalado, por isso a comparação é aproximada. A lei foi alterada pelo [artigo 5.º do Decreto-Lei n.º 9/2021](https://www.dgav.pt/alimentos/conteudo/generos-alimenticios/regras-especificas-por-tipo-de-alimentos/pao/); não confirmei o conteúdo dessa alteração. Alguns valores extremos (por exemplo, 5,0 g num pão doce) são provavelmente erros de preenchimento da base de dados.
 
