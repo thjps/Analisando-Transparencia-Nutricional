@@ -138,6 +138,6 @@ Google BigQuery · SQL (CTEs, funções de janela, `APPROX_QUANTILES`, `REGEXP_C
 
 Desenvolvido por Thiago Pordeus · 2026
 
-Dados: © Open Food Facts contributors, licença [ODbL](https://opendatacommons.org/licenses/odbl/1-0/)
+Dados: © Open Food Facts contributors
 
 </div>
